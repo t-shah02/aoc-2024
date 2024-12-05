@@ -50,7 +50,7 @@ def part_2(bad_reports: list[list[int]]) -> int:
     return total_reformed_reports
 
 
-def main():
+def main():     
     reports: list[list[int]] = []
 
     with open('input.txt', 'r') as file:
